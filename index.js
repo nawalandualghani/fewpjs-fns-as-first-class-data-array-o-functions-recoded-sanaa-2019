@@ -30,7 +30,7 @@ function unleashDog(){
 }
 
 let arr=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
-function exerciseDog(dogName,dogBreed)(){
+function exerciseDog(dogName,dogBreed){
   for(let i=0; i<arr.lenght;i++){
     console.log(`Wake ${i[0]} the ${i[1]}`);
   }
