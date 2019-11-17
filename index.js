@@ -32,7 +32,7 @@ function unleashDog(){
 function exerciseDog(dogName,dogBreed){
   // const a = "Skippy"
   // const b = "Welsh Corgi"
-  console.log(`Wake ${a} the ${b}`);
+  console.log(`Wake ${dogName} the ${dogBreed}`);
   // for(let i=0; i<arr.lenght;i++){
   //   console.log(`Wake ${i[0]} the ${i[1]}`);
   // }
