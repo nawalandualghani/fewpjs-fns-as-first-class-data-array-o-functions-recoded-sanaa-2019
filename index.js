@@ -28,9 +28,9 @@ function unleashDog(){
   const b = "Golden Retriever"
   console.log(`Wake ${a} the ${b}`);
 }
-function walkHome(){
-  const a = "Santa Paws"
-  const b = "Husky"
+function exerciseDog(dogName,dogBreed)(){
+  const a = "Skippy"
+  const b = "Welsh Corgi"
   console.log(`Wake ${a} the ${b}`);
 }
 wakeDog();
