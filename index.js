@@ -28,7 +28,7 @@ function unleashDog(){
   const b = "Golden Retriever"
   console.log(`Wake ${a} the ${b}`);
 }
-wakeDog(Skippy,Welsh Corgi);
+wakeDog("Skippy","Welsh Corgi");
 let arr=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
 function exerciseDog(dogName,dogBreed){
 
