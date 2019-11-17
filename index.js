@@ -29,7 +29,7 @@ function unleashDog(){
   console.log(`Wake ${a} the ${b}`);
 }
 
-function wakeDog(dogName,dogBreed){
+function wakeDog("dogName","dogBreed"){
   console.log(`Wake ${dogName} the ${dogBreed}`);
 }
 wakeDog("Skippy","Welsh Corgi");
