@@ -1,4 +1,4 @@
-function wakeDog(){
+function wakeDog(a,b){
   const a = "Xerox"
   const b = "Border Collie"
   console.log(`Wake ${a} the ${b}`);
