@@ -33,7 +33,7 @@ function exerciseDog(dogName,dogBreed){
   // const a = "Skippy"
   // const b = "Welsh Corgi"
   console.log(`Wake ${dogName} the ${dogBreed}`);
-  
+
 
 }
 exerciseDog("Skippy","Welsh Corgi");
