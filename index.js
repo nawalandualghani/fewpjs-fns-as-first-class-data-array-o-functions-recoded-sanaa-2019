@@ -23,4 +23,14 @@ function walkHome(){
   const b = "Husky"
   console.log(`Wake ${a} the ${b}`);
 }
+function unleashDog(){
+  const a = "Lauren"
+  const b = "Golden Retriever"
+  console.log(`Wake ${a} the ${b}`);
+}
+function walkHome(){
+  const a = "Santa Paws"
+  const b = "Husky"
+  console.log(`Wake ${a} the ${b}`);
+}
 wakeDog();
