@@ -38,3 +38,4 @@ function exerciseDog(dogName,dogBreed){
   // }
 
 }
+exerciseDog("Skippy","Welsh Corgi");
