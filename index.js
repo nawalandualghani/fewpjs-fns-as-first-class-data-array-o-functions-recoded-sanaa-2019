@@ -33,4 +33,4 @@ function exerciseDog(dogName,dogBreed)(){
   const b = "Welsh Corgi"
   console.log(`Wake ${a} the ${b}`);
 }
-wakeDog();
+let arr=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
