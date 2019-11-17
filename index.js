@@ -28,9 +28,11 @@ function unleashDog(){
   const b = "Golden Retriever"
   console.log(`Wake ${a} the ${b}`);
 }
-function exerciseDog(dogName,dogBreed)(){
-  const a = "Skippy"
-  const b = "Welsh Corgi"
-  console.log(`Wake ${a} the ${b}`);
-}
+
 let arr=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
+function exerciseDog(dogName,dogBreed)(){
+  for(let i=0; i<arr.lenght;i++){
+    console.log(`Wake ${i[0]} the ${i[1]}`);
+  }
+
+}
