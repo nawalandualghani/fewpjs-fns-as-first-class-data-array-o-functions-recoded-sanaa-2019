@@ -28,12 +28,12 @@ function unleashDog(){
   const b = "Golden Retriever"
   console.log(`Wake ${a} the ${b}`);
 }
-wakeDog("Skippy","Welsh Corgi");
 let arr=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
 function exerciseDog(dogName,dogBreed){
-
-  for(let i=0; i<arr.lenght;i++){
-    console.log(`Wake ${i[0]} the ${i[1]}`);
-  }
+  const a = "Skippy"
+  const b = "Welsh Corgi"
+  // for(let i=0; i<arr.lenght;i++){
+  //   console.log(`Wake ${i[0]} the ${i[1]}`);
+  // }
 
 }
