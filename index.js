@@ -29,14 +29,12 @@ function unleashDog(){
   console.log(`Wake ${a} the ${b}`);
 }
 
-function exerciseDog(dogName,dogBreed){
-  // const a = "Skippy"
-  // const b = "Welsh Corgi"
+function wakeDog(dogName,dogBreed){
   console.log(`Wake ${dogName} the ${dogBreed}`);
 
 
 }
-exerciseDog("Skippy","Welsh Corgi");
+wakeDog("Skippy","Welsh Corgi");
 let arr=[wakeDog(),leashDog(),walkToPark(),throwFrisbee(),walkHome(),unleashDog()];
 for(let i=0; i<arr.lenght;i++){
   console.log(`Wake ${i[0]} the ${i[1]}`);
