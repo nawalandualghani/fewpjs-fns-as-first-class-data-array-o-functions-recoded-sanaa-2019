@@ -30,7 +30,7 @@ function unleashDog(){
 }
 
 function wakeDog(dogName,dogBreed){
-  // console.log(`Wake ${dogName} the ${dogBreed}`);
+  console.log(`Wake ${dogName} the ${dogBreed}`);
 
 }
 wakeDog("Skippy","Welsh Corgi");
